@@ -35,7 +35,7 @@ I completed the work myself, and you guys are free to check its validity in anyw
 
 Functionality: Implement a program that prints out a simple greeting to the user.
 
-- Uses the "printf()"
+- Uses the "printf()" function
   + Prints "hello, world"
 
 -------------------------------------------------------------------------------------------------------------
