@@ -8,12 +8,15 @@ I recommend not continuing to read unless you have already solved the problems y
 or you are not interested in solving it.
 
 ------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
+|                                                                                                          |
+|                                                                                                          |
+|                                                                                                          |
+|                           Filler to cover the cs50 problem solutions below                               |
+|                                                                                                          |
+|                                                                                                          |
+|                                                                                                          |
+|                                                                                                          |
+------------------------------------------------------------------------------------------------------------
 background:
 
 I am currently enrolled in cs50 ap. This summer I had discovered cs50 and enrolled my self in that course without knowing that 
@@ -36,6 +39,14 @@ I completed the work myself, and you guys are free to check its validity in anyw
 
 -------------------------------------------------------------------------------------------------------------
 
+CS50 Problem: Hello
+
+Functionality: Implement a program that prints out a simple greeting to the user.
+
+- Uses the "printf()" found in the cs50 library
+  + Prints "hello, world"
+
+-------------------------------------------------------------------------------------------------------------
 
 CS50 Problem: ISBN
 
@@ -65,7 +76,7 @@ Functionality: Implement a program to validate ISBN-10 digit numbers.
   
   + Lastly checks whether or not the final sum "y" is divisable by 11, and outputting "YES" and "NO" repectively.
 
-
+-------------------------------------------------------------------------------------------------------------
 
 CS50 Problem: Mario (more comfy) 
 
@@ -96,3 +107,4 @@ Functionality: Implement a program that prints out a double half-pyramid of a sp
   + Added an "Error:..." feature to help inform the user if they are not familiar
   with the parameters
 
+-------------------------------------------------------------------------------------------------------------
