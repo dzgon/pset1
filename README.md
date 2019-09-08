@@ -10,18 +10,18 @@ Functionality: Prints a mario-like double sided pyramid
   
   
 -Uses multiple imbedded "for loops" to recursivly print the pyramid
-  +Prints spaces (" ") to help align the bricks ("#")
+  + Prints spaces (" ") to help align the bricks ("#")
   
-  +Spaces follow a pattern where each successive line requires a number of
+  + Spaces follow a pattern where each successive line requires a number of
   spaces equal to the (height - 1 - line#) where line starts at 0
   
-  +Bricks follow a pattern where each successive line requires a number of
+  + Bricks follow a pattern where each successive line requires a number of
   bricks equal to the (line# + 1) where line starts at 0
   
-  +Used an additional "for loop" to statically add 2 spaces between the two
+  + Used an additional "for loop" to statically add 2 spaces between the two
   brick layers for each row
   
-  +Used the same brick algorithm before and after the static 2 spaces to
+  + Used the same brick algorithm before and after the static 2 spaces to
   achieve the full pyramid shape
 
 
