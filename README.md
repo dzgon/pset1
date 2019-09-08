@@ -65,4 +65,8 @@ Functionality: Prints a mario-like double sided pyramid
   
   + Used the same brick algorithm before and after the static 2 spaces to
   achieve the full pyramid shape
+  
+  Updates:
+  + Added an "Error:..." feature to help inform the user if they are not familiar
+  with the parameters
 
