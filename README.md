@@ -5,7 +5,7 @@
                     README.md contains some components to the solutions to cs50's pset1 problems.
 
                I recommend not continuing to read unless you have already solved the problems yourself,
-                                  or you are not interested in solving them.
+                               or you are not interested in taking the cs50 course.
 
 ------------------------------------------------------------------------------------------------------------
 
