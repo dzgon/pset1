@@ -12,6 +12,22 @@ int main (void)
     {
         // Prompting the user for an integer to represent the pyramid height
         mario_height = get_int("Height: ");
+        
+        // Printing an error message to inform the user that the integer must be positive
+        if (mario_height < 0)
+        {
+            printf("Error: Must be a positive integer!\n");
+        }
+        // Printing an error message to inform the user that the integer cannot be 0
+        else if (mario_height == 0)
+        {
+            printf("Error: Can't be 0!\n");
+        }
+        // Printing an error message to inform the user that the integer cannot be greater than 23
+        else if (mario_height > 23)
+        {
+            printf("Error: Cannot be greater than 23!\n");
+        }
     }
     // Repeatedly prompting as long as the value inputed is negative or greater than 23
     while (mario_height < 1 || mario_height > 23);
