@@ -1,11 +1,13 @@
 # pset1
 
-This is a warning.
+                                    ---       This is a warning.       ---
 
-README.md contains some components to the solution to cs50's pset1 problems.
+                    README.md contains some components to the solutions to cs50's pset1 problems.
 
-I recommend not continuing to read unless you have already solved the problems yourself,
-or you are not interested in solving it.
+               I recommend not continuing to read unless you have already solved the problems yourself,
+                                  or you are not interested in solving them.
+
+------------------------------------------------------------------------------------------------------------
 
 background:
 
