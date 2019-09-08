@@ -37,13 +37,39 @@ I completed the work myself, and you guys are free to check its validity in anyw
 -------------------------------------------------------------------------------------------------------------
 
 
+CS50 Problem: ISBN
 
+Functionality: Implement a program to validate ISBN-10 digit numbers.
+
+-Prompts user to input a ISBN number
+  + ISBN number must a positive integer that is 10 digits long.
+  If not, the prompt will be repeated along with an occational error message untill it meets those conditions.
+  
+  
+ 
+-Uses a "for loop" to recursivly apply the algorithm to each digit int the ISBN number
+  + Loops 10 times, once for each digit.
+  
+  + Sets a mutiplier variable (isbn_multiplier), which is equal to the 
+  (number of digits in the ISBN number - the current respective digit starting at 0), to applythe correct formula to each digit.
+  
+  + Takes the last digit of the ISBN number using the % 10 (modular 10) trick and mutiplies
+  it by the multiplier variable.
+  
+  + Then takes the sum of the (product of the digit value and the multiplier variable) and the 
+  variable y(which is used to store the sum), which starts at 0.
+  
+  + Then removes the last digit in the ISBN number.
+  
+  + It repeats the process for each digit.
+  
+  + Lastly checks whether or not the final sum "y" is divisable by 11, and outputting "YES" and "NO" repectively.
 
 
 
 CS50 Problem: Mario (more comfy) 
 
-Functionality: Prints a mario-like double sided pyramid
+Functionality: Implement a program that prints out a double half-pyramid of a specified height.
 
 -Prompts user to input a height
   + Height must be a positive integer and between the values of 1 and 23.
