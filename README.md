@@ -9,7 +9,7 @@
 
 ------------------------------------------------------------------------------------------------------------
 
-background:
+                                                 Background:
 
 I am currently enrolled in cs50 ap. This summer I had discovered cs50 and enrolled my self in that course without knowing that 
 my AP CS Principles course used a version of Harvards cs50 course.
@@ -31,7 +31,7 @@ I completed the work myself, and you guys are free to check its validity in anyw
 
 -------------------------------------------------------------------------------------------------------------
 
-CS50 Problem: Hello
+                                             CS50 Problem: Hello
 
 Functionality: Implement a program that prints out a simple greeting to the user.
 
@@ -40,7 +40,7 @@ Functionality: Implement a program that prints out a simple greeting to the user
 
 -------------------------------------------------------------------------------------------------------------
 
-CS50 Problem: ISBN
+                                             CS50 Problem: ISBN
 
 Functionality: Implement a program to validate ISBN-10 digit numbers.
 
@@ -70,7 +70,7 @@ Functionality: Implement a program to validate ISBN-10 digit numbers.
 
 -------------------------------------------------------------------------------------------------------------
 
-CS50 Problem: Mario (more comfy) 
+                                         CS50 Problem: Mario (more comfy) 
 
 Functionality: Implement a program that prints out a double half-pyramid of a specified height.
 
