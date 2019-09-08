@@ -1,4 +1,5 @@
-// Create a mario pyramid for a height n, where n is any positive integer less than 9
+// Create a mario pyramid for a height n, where n is any positive integer less than
+// or equal to 23
 #include <stdio.h>
 #include <cs50.h>
 
@@ -12,7 +13,7 @@ int main (void)
         mario_height = get_int("Height: ");
     }
     // Repeatedly asking as long as value inputed is negative or greater than 8
-    while (mario_height < 1 || mario_height > 8);
+    while (mario_height < 1 || mario_height > 23);
 
     printf("%i\n", mario_height);
 
