@@ -14,9 +14,9 @@ int main (void)
 
     int sum = 0;
     int mult_sum = 0;
-    int temp_sum = 0;
     for (int i = 0; i < 16; i++)
     {
+        int temp_sum = 0;
         int last_digit = card_num % 10;
         sum += last_digit;
 
