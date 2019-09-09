@@ -10,7 +10,7 @@ int main (void)
 {
     long card_num = get_long("Number: ");
 
-    long card_save = card_num;
+    long card_check = card_num;
 
     int sum = 0;
     int mult_sum = 0;
@@ -45,17 +45,17 @@ int main (void)
 
     if (sum % 10 == 0)
     {
-        if (card_save < 10000000000000)
+        if (card_check < 10000000000000)
         {
             printf("VISA\n");
         }
-        else if (card_save < 1000000000000000)
+        else if (card_check < 1000000000000000)
         {
             printf("AMEX\n");
         }
-        else if (card_save > 1000000000000000)
+        else if (card_check > 1000000000000000)
         {
-            if ((card_save / 1000000000000000) % 10 == 4)
+            if ((card_check / 1000000000000000) % 10 == 4)
             {
                 printf("VISA\n");
             }
