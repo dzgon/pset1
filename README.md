@@ -40,6 +40,16 @@ Functionality: Implement a program that prints out a simple greeting to the user
 
 -------------------------------------------------------------------------------------------------------------
 
+                                             CS50 Problem: Fahrenheit
+Functionality: Implement a program that converts degrees in Celsius to Fahrenheit
+
+- Prompts user for a temperature in celsius
+  + Takes the inputed value and plugs it into a formula to convert to fahrenheit
+  
+  + Prints the converted fahrenheit temperature
+
+-------------------------------------------------------------------------------------------------------------
+
                                              CS50 Problem: ISBN
 
 Functionality: Implement a program to validate ISBN-10 digit numbers.
