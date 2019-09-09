@@ -91,7 +91,37 @@ Functionality: Implement a program that calculates the sum of getting a doubled 
   before printing so decimals are visable
 
 -------------------------------------------------------------------------------------------------------------
-                                          CS50 Problem: Mario (more comfy) 
+
+                                            CS50 Problem: Credit
+
+Functionality: Implement a program that determines whether a provided credit card number is valid according to Luhn’s algorithm.
+
+- Prompts user to input a credit card number
+  + There is no restriction as to what can be inputed, if the number is not a valid credit card number
+  than it simply will appear as "INVALID"
+  
+  + "get_long" has a built in system to reject non-numbers anyway
+ 
+ - Uses a for loop to implement the algorithm to each digit of the number recursively
+  + Uses "  % 10" to get the last digit, and " / 10" to cut off the last digit so the 
+  next one becomes available to be seen.
+  
+  + The first "last digit" will be added to a individual sum called "sum"
+  
+  + The next "last digit" will be multiplied by 2, and checked to see if it has 2 digits. If so,
+  then the digits will be seperated and the sum of each of the digits will be added to a different
+  sum called "mult_sum"
+  
+  + If the product has one digit, it will just be added to "mult_sum"
+  
+  + The number is then checked to be "VALID". If it is not, it will simply print "INVALID"
+  
+  + If it is, then the original card number will be checked using its # of digits and the value of
+  the first digit to determine which type of card it is.
+
+-------------------------------------------------------------------------------------------------------------
+
+                                        CS50 Problem: Mario (more comfy) 
 
 Functionality: Implement a program that prints out a double half-pyramid of a specified height.
 
