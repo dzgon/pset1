@@ -25,16 +25,16 @@ int main (void)
     // Repeatedly prompts user for # of pennies on day 1 as long as the
     // inputed value is a negative integer or 0
     while (cumulative_pen < 1);
-    
+
     // Storing pennies we started with on day one
-    long long day_one = start_pen;
-    
+    long long day_one = cumulative_pen;
+
     // Doubles the starting pennies everyday for each day in the month
     for (int i = 0; i < days_month; i++)
     {
-        cumulative_pen = start_pen * 2;
+        cumulative_pen = cumulative_pen * 2;
     }
-    
+
     // Subtract pennies pennies we started with from the total amount of pennies
     cumulative_pen -= day_one;
     // Change the data type into a "long double" before converting into dollars
