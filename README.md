@@ -44,13 +44,13 @@ Functionality: Implement a program that prints out a simple greeting to the user
 
 Functionality: Implement a program to validate ISBN-10 digit numbers.
 
--Prompts user to input a ISBN number
+- Prompts user to input a ISBN number
   + ISBN number must a positive integer that is 10 digits long.
   If not, the prompt will be repeated along with an occational error message untill it meets those conditions.
   
   
  
--Uses a "for loop" to recursivly apply the algorithm to each digit int the ISBN number
+- Uses a "for loop" to recursivly apply the algorithm to each digit int the ISBN number
   + Loops 10 times, once for each digit.
   
   + Sets a mutiplier variable (isbn_multiplier), which is equal to the 
@@ -70,17 +70,38 @@ Functionality: Implement a program to validate ISBN-10 digit numbers.
 
 -------------------------------------------------------------------------------------------------------------
 
-                                         CS50 Problem: Mario (more comfy) 
+                                             CS50 Problem: Pennies
+
+Functionality: Implement a program that calculates the sum of getting a doubled amount of money each day for a month, per the below.
+
+- Uses a "for loop" to repeatedly double the amount of total pennies everyday for a month
+  + Prompts for the number of days in a chosen month. # of days in the month must not be less than 28
+  or greater than 31. If not, the prompt will be repeated untill it meets those conditions
+  
+  + Prompts for the number of starting pennies on day 1. Number of starting pennies has to be greater than 0.
+  If not, the prompt will be repeated untill it meets the conditions
+  
+  + Store the number of pennies on day 1 in a variable called "day_one" for later use
+  
+  + Use the "for loop" for calculate the total number of pennies on the last day
+  
+  + Subtract the starting pennies on day 1 from the total amount of pennies
+  
+  + Divide the number of pennies by 100 to get the dollar amount, change data type to a floating point
+  before printing so decimals are visable
+
+-------------------------------------------------------------------------------------------------------------
+                                          CS50 Problem: Mario (more comfy) 
 
 Functionality: Implement a program that prints out a double half-pyramid of a specified height.
 
--Prompts user to input a height
+- Prompts user to input a height
   + Height must be a positive integer and between the values of 1 and 23.
   If not, the prompt will be repeated untill it meets those conditions
   
   
   
--Uses multiple imbedded "for loops" to recursivly print the pyramid
+- Uses multiple imbedded "for loops" to recursivly print the pyramid
   + Prints spaces (" ") to help align the bricks ("#")
   
   + Spaces follow a pattern where each successive line requires a number of
