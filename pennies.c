@@ -31,7 +31,8 @@ int main (void)
     {
         start_pen = start_pen * 2;
     }
-
+    
+    // Subtract pennies pennies we started with from the total amount of pennies
     start_pen -= day_one;
     // Change the data type into a "long double" before converting into dollars
     // and printing so that we can see decimals
