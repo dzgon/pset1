@@ -1,8 +1,10 @@
-//Implement a program that determines whether a provided credit card number is valid according to Luhn’s algorithm.
+/* Dominic Merchelski 10/15/19
+Implement a program that determines whether a provided credit card number is valid according to Luhn’s algorithm.
+*/
 #include <stdio.h>
 #include <cs50.h>
 
-int main (void)
+int main(void)
 {
     // Prompt user for card number
     long card_num = get_long("Number: ");
@@ -53,35 +55,34 @@ int main (void)
     // Adding both sums together
     sum += mult_sum;
 
-    //Checking whether the number is valid or not
+    // Checking to see if credit card is valid
     if (sum % 10 == 0)
     {
-        // VISA cards have 13 digits, so we are checking for that
-        if (card_check < 10000000000000)
-        {
-            printf("VISA\n");
-        }
-        // American Express card have 15 digits, so we check for that here
-        else if (card_check < 1000000000000000)
+        // AMEX must start with 34 or 37
+        if (((card_check / (10000000000000))) % 100 == 34 || (card_check / (10000000000000)) % 100 == 37)
         {
             printf("AMEX\n");
         }
-        // Both VISA and MASTERCARD can have 16 digits
-        else if (card_check > 1000000000000000)
+        // MASTERCARD must start between 51 and 55
+        else if (((card_check / (100000000000000)) % 100) <= 55 && ((card_check / (100000000000000)) % 100) >= 51)
         {
-            // However VISA must start with a 4
-            if ((card_check / 1000000000000000) % 10 == 4)
-            {
-                printf("VISA\n");
-            }
-            else
-            {
-                printf("MASTERCARD\n");
-            }
+            printf("MASTERCARD\n");
+        }
+        // VISA must start with a 4 but can be either 13 or 16 digits long
+        else if (((card_check / (1000000000000000))) % 10 == 4 || (card_check / (1000000000000)) % 10 == 4)
+        {
+            printf("VISA\n");
+        }
+
+        else
+        {
+            // If doesnt match listed credit cards, print INVALID
+            printf("INVALID\n");
         }
     }
     else
     {
+        // If doesnt pass algorithm, print INVALID
         printf("INVALID\n");
     }
 
